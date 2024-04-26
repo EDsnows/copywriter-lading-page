@@ -4,21 +4,26 @@ main {
     color: var(--text);
 }
 
-main section.secao_1 .bgEstilo__containerTituloSecao_1{
+main section.secao_1 .containerInformacoesSecao_1{
+    display: inline-block;
+    max-width: 639px;
+}
+
+main section.secao_1 .containerInformacoesSecao_1 .bgEstilo__containerTituloSecao_1{
     background-color: var(--accent);
     border-radius: 5px;
+    width: 562px;
+    height: 120px;
     margin: 40px 77px 59px 0px;
 }
 
-section.secao_1 .containerTituloSecao_1{
+section.secao_1 .containerInformacoesSecao_1 .containerTituloSecao_1{
     display: inline-block;
-    width: 562px;
-    height: 120px;
     text-align: right;
     transform: translateX(-40px);
 }
 
-section.secao_1 .containerTituloSecao_1 .containerTextoTitulo{
+section.secao_1 .containerInformacoesSecao_1 .containerTituloSecao_1 .containerTextoTitulo{
     margin: 7px 0px;
     width: 447px;
     height: 110px;
@@ -27,8 +32,54 @@ section.secao_1 .containerTituloSecao_1 .containerTextoTitulo{
     text-transform: uppercase;
 }
 
-section.secao_1 .containerTituloSecao_1 .containerTextoTitulo h2{
+section.secao_1 .containerInformacoesSecao_1 .containerTituloSecao_1 .containerTextoTitulo h2{
     font-size: 28px;
+}
+
+section.secao_1 .containerInformacoesSecao_1 .bgEstilo__containerProfissao-Nome {
+    background-color: var(--primary_mod);
+    border-radius: 5px;
+    width: 522px;
+    height: 85px;
+    margin: 59px 0px 67px;
+}
+
+section.secao_1 .containerInformacoesSecao_1 .containerProfissao-Nome {
+    display: inline-block;
+    text-align: right;
+    transform: translateX(-40px);
+}
+
+section.secao_1 .containerInformacoesSecao_1 .containerProfissao-Nome .containerTexto__Profissao-Nome {
+    margin: 7px 0px;
+    width: 420px;
+    height: 75px;
+    transform: translateX(calc(9vw - 14px));
+    text-align: left;
+}
+
+section.secao_1 .containerInformacoesSecao_1 .containerProfissao-Nome .containerTexto__Profissao-Nome .ocupacao .copywriter,.freelancer{
+    display: inline-block;
+}
+
+section.secao_1 .containerInformacoesSecao_1 .containerProfissao-Nome .containerTexto__Profissao-Nome .ocupacao .copywriter{
+    font-size: 42px;
+}
+
+section.secao_1 .containerInformacoesSecao_1 .containerProfissao-Nome .containerTexto__Profissao-Nome .ocupacao .freelancer{
+    font-size: 34px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+section.secao_1 .containerInformacoesSecao_1 .containerProfissao-Nome .containerTexto__Profissao-Nome .nome{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section.secao_1 .containerImage__Gabriel_1{
+    display: absolute;
+    
 }
 
 /* section.secao_1 .containerImage__Gabriel_1{
