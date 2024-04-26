@@ -1,8 +1,41 @@
-section.secao_1{
-    background-color: aqua;
+main {
+    font-family: "inter", sans-serif;
+    background-color: var(--background);
+    color: var(--text);
 }
 
-section.secao_2{
+main section.secao_1 .bgEstilo__containerTituloSecao_1{
+    background-color: var(--accent);
+    border-radius: 5px;
+    margin: 40px 77px 59px 0px;
+}
+
+section.secao_1 .containerTituloSecao_1{
+    display: inline-block;
+    width: 562px;
+    height: 120px;
+    text-align: right;
+    transform: translateX(-40px);
+}
+
+section.secao_1 .containerTituloSecao_1 .containerTextoTitulo{
+    margin: 7px 0px;
+    width: 447px;
+    height: 110px;
+    transform: translateX(calc(9vw - 7px));
+    text-align: left;
+    text-transform: uppercase;
+}
+
+section.secao_1 .containerTituloSecao_1 .containerTextoTitulo h2{
+    font-size: 28px;
+}
+
+/* section.secao_1 .containerImage__Gabriel_1{
+    display: inline-block;
+} */
+
+/* section.secao_2{
     background-color: brown;
 }
 
@@ -21,3 +54,9 @@ section.secao_5{
 section.secao_6{
     background-color: limegreen;
 } 
+
+div.bg-Estilo__containerPrincipalMarcasArea{
+    background-color: yellowgreen;
+    width: 100vw;
+    height: 381px;
+} */
