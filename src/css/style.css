@@ -4,6 +4,22 @@ main {
     color: var(--text);
 }
 
+main section.secao_1{
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main section.secao_1 .demacacao{
+    width: 100vw;
+    height: 415px;
+    display: flex;
+    justify-content: space-between;
+}
+
 main section.secao_1 .containerInformacoesSecao_1{
     display: inline-block;
     max-width: 639px;
@@ -78,8 +94,8 @@ section.secao_1 .containerInformacoesSecao_1 .containerProfissao-Nome .container
 }
 
 section.secao_1 .containerImage__Gabriel_1{
-    display: absolute;
-    
+    border-radius: 5px;
+    margin: 45px 60px 30px 0px;
 }
 
 /* section.secao_1 .containerImage__Gabriel_1{
@@ -110,4 +126,11 @@ div.bg-Estilo__containerPrincipalMarcasArea{
     background-color: yellowgreen;
     width: 100vw;
     height: 381px;
+} */
+
+/* main .secao_teste{
+    margin-top: 100px;
+    width: calc(100vw - 17px);
+    height: 100vh;
+    background-color: var(--accent);
 } */
