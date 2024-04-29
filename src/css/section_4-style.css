@@ -1,0 +1,51 @@
+section.secao_4 .containerTextoTitulo {
+    display: flex;
+    justify-content: center;
+}
+
+section.secao_4 .containerTextoTitulo h2{
+    max-width: 706px;
+}
+section.secao_4 .bg-Estilo__containerDepoimento{
+    width: 100%;
+    height: auto;
+    background-color: var(--secondary-mod);
+}
+
+section.secao_4 .containerDepoimento{
+    display: flex;
+    justify-content: center;
+}
+section.secao_4 .containerDepoimento .containerClientes{
+    padding: 25px 13px;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 919px;
+}
+
+section.secao_4 .containerDepoimento .containerClientes .containerCliente{
+    background-color: var(--accent_mod);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 14px;
+    border-radius: 5px;
+}
+
+section.secao_4 .containerDepoimento .containerClientes .containerCliente .informacoesCliente{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+section.secao_4 .containerDepoimento .containerClientes .containerCliente .containerDepoimentoCliente{
+    width: 255px;
+    height: 185px;
+    margin-left: 25px;
+}
+
+section.secao_4 .containerDepoimento .containerClientes .containerCliente .informacoesCliente .clienteNome, .containerDepoimentoCliente{
+    font-size: 17px;
+    font-weight: 600;
+}

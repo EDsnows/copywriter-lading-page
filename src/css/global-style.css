@@ -1,0 +1,38 @@
+main {
+    font-family: "inter", sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+section:not(:first-of-type){
+    padding: 30px 0px;
+}
+
+section .containerTextoTitulo{
+    text-transform: uppercase;
+    margin: 15px 0px;
+    font-size: 22px;
+    text-align: center;
+}
+
+/* 
+section.secao_5{
+    background-color: fuchsia;
+}
+
+section.secao_6{
+    background-color: limegreen;
+} 
+
+div.bgEstilocontainerPrincipalMarcasArea{
+    background-color: yellowgreen;
+    width: 100vw;
+    height: 381px;
+} */
+
+/* main .secao_teste{
+    margin-top: 100px;
+    width: calc(100vw - 17px);
+    height: 100vh;
+    background-color: var(--accent);
+} */
