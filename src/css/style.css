@@ -186,6 +186,7 @@ section.secao_3 .containerPrincipalMarcasArea .containerMarcasArea .marcaImpacta
     padding: 19px 14px;
     background-color: var(--primary);
     border: solid #000 0.3px;
+    border-radius: 5px;
     width: 156px;
     height: 252px;
 }
@@ -253,6 +254,7 @@ section.secao_4 .containerDepoimento .containerClientes .containerCliente{
     display: flex;
     justify-content: space-between;
     padding: 30px 14px;
+    border-radius: 5px;
 }
 
 section.secao_4 .containerDepoimento .containerClientes .containerCliente .informacoesCliente{
