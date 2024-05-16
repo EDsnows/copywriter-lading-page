@@ -16,6 +16,7 @@ section.secao_4 .containerDepoimento{
     display: flex;
     justify-content: center;
 }
+
 section.secao_4 .containerDepoimento .containerClientes{
     padding: 25px 13px;
     display: flex;

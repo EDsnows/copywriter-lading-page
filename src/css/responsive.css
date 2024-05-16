@@ -1,0 +1,78 @@
+@media(max-width: 1200px){
+/* SECTION 1 */
+    section.secao_1 .containerInformacoesSecao_1 .bg-Estilo__containerTituloSecao_1{
+        width: calc(513px - 3vw);
+    }
+
+    section.secao_1 .containerInformacoesSecao_1 .containerTituloSecao_1 .containerTextoTitulo{
+        transform: translateX(3vw);
+    }
+
+    section.secao_1 .containerInformacoesSecao_1 .bg-Estilo__containerProfissao-Nome {
+        width: calc(485px - 3vw);
+    }
+
+    section.secao_1 .containerInformacoesSecao_1 .containerProfissao-Nome .containerTexto__Profissao-Nome{
+        transform: translateX(3vw);
+    }
+
+    section.secao_1 .containerImage__Gabriel_1{
+        margin: 45px 3vw 30px 0px;
+    }
+
+    section.secao_1 .containerImage__Gabriel_1 img{
+        transform: scale(1);
+    }
+
+/* SECTION 2 */
+    section.secao_2 .containerImage__Gabriel_2{
+        margin-left: 3vw;
+    }
+
+    section.secao_2 .containerImage__Gabriel_2 img{
+        transform: scale(1);
+    }
+
+    section.secao_2 .containerComoImpactar{
+        margin-right: 3vw;
+    } 
+
+/* SECTION 5 */
+    section.secao_5 .containerApresentacao{
+        margin: 15px 15px 0px 3vw;
+    }
+
+    section.secao_5 .bg-Estilo__containerApresentacao{
+        width: 465px;
+    }
+}
+
+
+@media(max-width: 912px) {
+    main{
+        background-color: brown;
+    }
+
+/* SECTION 1 */
+
+
+/* SECTION 2 */
+
+
+/* SECTION 3 */
+
+
+/* SECTION 4 */
+
+
+/* SECTION 5 */
+
+
+/* SECTION 6 */
+}
+
+@media(max-width: 576px) {
+    main{
+        background-color: darkmagenta;
+    }
+}
