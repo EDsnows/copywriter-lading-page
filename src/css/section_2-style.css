@@ -30,8 +30,9 @@ section.secao_2 .containerComoImpactar{
 }
 
 section.secao_2 .containerComoImpactar .containerTextoSubtitulo{
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
+    margin-bottom: 2vh;
 }
 
 section.secao_2 .containerComoImpactar .bg-Estilo__ListaDeAjudas{
@@ -41,11 +42,11 @@ section.secao_2 .containerComoImpactar .bg-Estilo__ListaDeAjudas{
 
 section.secao_2 .containerComoImpactar .containerTexto__ListaDeAjudas .ListasDeAjuda{
     width: 433px;
-    height: 260px;
+    height: 220px;
     margin: 15px;
 }
 
 section.secao_2 .containerComoImpactar .containerTexto__ListaDeAjudas .ListasDeAjuda li{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
 }

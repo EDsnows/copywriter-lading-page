@@ -44,12 +44,12 @@ section.secao_1 .containerInformacoesSecao_1 .containerTituloSecao_1 .containerT
     font-size: 28px;
 }
 
-section.secao_1 .containerInformacoesSecao_1 .containerProfissao-Nome {
+section.secao_1 .containerInformacoesSecao_1 .containerProfissao-Nome{
     display: inline-block;
     max-width: 500px;
 }
 
-section.secao_1 .containerInformacoesSecao_1 .bg-Estilo__containerProfissao-Nome {
+section.secao_1 .containerInformacoesSecao_1 .bg-Estilo__containerProfissao-Nome{
     background-color: var(--primary_mod);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
