@@ -1,5 +1,4 @@
 @media(max-width: 1200px){
-/* SECTION 1 */
     section.secao_1 .containerInformacoesSecao_1 .bg-Estilo__containerTituloSecao_1{
         width: calc(513px - 3vw);
     }
@@ -24,7 +23,6 @@
         transform: scale(1);
     }
 
-/* SECTION 2 */
     section.secao_2 .containerImage__Gabriel_2{
         margin-left: 3vw;
     }
@@ -37,7 +35,6 @@
         margin-right: 3vw;
     } 
 
-/* SECTION 5 */
     section.secao_5 .containerApresentacao{
         margin: 15px 15px 0px 3vw;
     }
@@ -51,8 +48,6 @@
     section .containerTextoTitulo:not(:last-child){
         font-size: 19px;
     } 
-
-/* SECTION 1 */
 
     section.secao_1{
         height: auto;
@@ -90,7 +85,6 @@
         margin: 0px 0px 0px 3vw;
     }
 
-/* SECTION 2 */
     section.secao_2{
         height: auto;
     }
@@ -120,7 +114,6 @@
         font-size: 18px;
     }
 
-/* SECTION 4 */
     section.secao_4 .containerDepoimento .containerClientes {
         flex-direction: column;
         align-items: center;
@@ -129,10 +122,9 @@
 
     section.secao_4 .containerDepoimento .containerClientes .containerCliente .informacoesCliente .clienteNome, .containerDepoimentoCliente{
         font-size: 16px;
-        font-weight: 500;
+        font-weight: 600;
     }
 
-/* SECTION 5 */
     section.secao_5 .demarcacao_secao_5 .containerImage__Gabriel_3{
         margin-top: 0;
         margin-right: 0;
