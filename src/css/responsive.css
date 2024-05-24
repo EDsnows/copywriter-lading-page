@@ -53,6 +53,7 @@
     } 
 
 /* SECTION 1 */
+
     section.secao_1{
         height: auto;
     }
@@ -61,6 +62,7 @@
         height: auto;
         flex-direction: column;
     }
+
     section.secao_1 .containerInformacoesSecao_1 .containerTituloSecao_1 .containerTextoTitulo h2{
         font-size: 26px;
     }
@@ -71,6 +73,16 @@
 
     section.secao_1 .containerInformacoesSecao_1 .bg-Estilo__containerProfissao-Nome{
         margin: 30px 0px 33px;
+    }
+
+    section.secao_1 .containerInformacoesSecao_1 .containerProfissao-Nome .containerTexto__Profissao-Nome .ocupacao .copywriter{
+        font-size: 40px;
+    }
+
+    section.secao_1 .containerInformacoesSecao_1 .containerProfissao-Nome .containerTexto__Profissao-Nome .ocupacao .freelancer {
+        font-size: 32px;
+        font-style: italic;
+        text-decoration: underline;
     }
 
     section.secao_1 .containerImage__Gabriel_1{
@@ -151,7 +163,11 @@
 }
 
 @media(max-width: 576px) {
-    main{
-        background-color: darkmagenta;
+    section .containerTextoTitulo:not(section.secao_6 .containerTextoTitulo){
+        font-size: 17px;
+    } 
+
+    section div.containerImage__Gabriel_1, div.containerImage__Gabriel_2, div.containerImage__Gabriel_3{
+        transform: scale(0.97)
     }
 }
